@@ -1,0 +1,3 @@
+spring:
+  profiles:
+    active: dev   # Mặc định chạy local bằng IntelliJ, dùng profile "dev"
