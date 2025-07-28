@@ -42,6 +42,7 @@ public class AlertEvaluatorService  {
                     .currentPrice(stockPriceEvent.getPrice())
                     .targetPrice(alertConfig.getTargetPrice().doubleValue())
                     .condition(alertConfig.getCondition())
+                    .email(alertConfig.getEmail())
                     .alertTime(stockPriceEvent.getTimestamp())
                     .build();
             alertProducer.sendAlert(alertEvent);

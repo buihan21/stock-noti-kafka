@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/services/alert_config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/notification-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/price-simulator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/user-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

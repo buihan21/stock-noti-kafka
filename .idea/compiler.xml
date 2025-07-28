@@ -11,6 +11,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="alert_config" />
+        <module name="user-service" />
         <module name="price-simulator" />
         <module name="notification-service" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="alert_config" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="price-simulator" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>

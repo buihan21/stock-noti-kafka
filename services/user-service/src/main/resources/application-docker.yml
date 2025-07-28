@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres-users:5432/users_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: bkpk2=xe)3-0r4*5i%10=@vcw35zhse(#zxw3sax%83x&s$3@q
+
+server:
+  port: 8082

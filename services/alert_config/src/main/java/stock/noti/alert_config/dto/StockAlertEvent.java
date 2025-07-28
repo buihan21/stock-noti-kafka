@@ -11,5 +11,6 @@ public class StockAlertEvent {
     private double currentPrice;
     private double targetPrice;
     private String condition;
+    private String email;
     private String alertTime;
 }

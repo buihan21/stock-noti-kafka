@@ -9,5 +9,25 @@ spring:
 
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+  data:
+    mongodb:
+      host: mongodb
+      port: 27017
+      database: notifications-db
+      uri: mongodb://mongodb:27017/notification_db
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: hanbn210402@gmail.com
+    password: obwkgjibhtecygzz
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
   main:
     allow-bean-definition-overriding: true

@@ -36,6 +36,9 @@ public class AlertConfig {
     @Pattern(regexp = "GREATER_THAN|LESS_THAN")
     private String condition; // GREATER_THAN, LESS_THAN
 
+    @Column(name = "email")
+    private String email;
+
     private LocalDateTime createdAt = LocalDateTime.now();
 
 //    @Enumerated(EnumType.STRING)

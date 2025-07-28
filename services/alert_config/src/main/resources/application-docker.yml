@@ -22,3 +22,6 @@ spring:
 
   main:
     allow-bean-definition-overriding: true
+
+user-service:
+  url: http://user-service:8082
